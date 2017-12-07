@@ -1,0 +1,273 @@
+/*首页头部*/
+body{
+    background:rgb(238,238,238);
+}
+
+.index_head{
+    width:10rem /* 750/75 */;
+    height:1.266667rem /* 95/75 */;
+    background: rgb(197,41,42);
+    color: #FFF;
+    line-height: 1.266667rem /* 95/75 */;
+    text-align: center;
+    font-size:.48rem /* 36/75 */;
+}
+
+/*首页bnnar部分*/
+.index_banner img{
+    width: 10rem /* 750/75 */;
+    height:4.2rem /* 315/75 */;
+}
+
+/* 首页主体-我们的优势部分 */
+.index_zhuti_youshi{
+    margin-top:.2rem /* 15/75 */; 
+}
+.index_zhuti_youshi p{
+    width: 10rem /* 750/75 */;
+    height:.933333rem /* 70/75 */;
+    line-height: .933333rem /* 70/75 */;
+    text-align: center;
+    background: #FFF;
+    font-size:.4rem /* 30/75 */;
+}
+.index_zhuti_youshi ul{
+    background: #FFF;
+    width: 10rem /* 750/75 */;
+    overflow: hidden;
+}
+.index_zhuti_youshi ul li{
+    float:left;
+    width: 4.533333rem /* 340/75 */;
+    height: 2.133333rem /* 160/75 */;
+    background:rgb(238,238,238);
+    margin-left:.306667rem /* 23/75 */;
+    margin-bottom: .333333rem /* 25/75 */;
+    border-radius: .133333rem /* 10/75 */;
+    line-height: .506667rem /* 38/75 */;
+    font-size: .293333rem /* 22/75 */;
+}
+.index_zhuti_youshi ul li img{
+    width: .773333rem /* 58/75 */;
+    height: .68rem /* 51/75 */;
+    margin:.666667rem /* 50/75 */ .16rem /* 12/75 */;
+    float: left;
+}
+.index_zhuti_youshi ul li font{
+    font-size: .346667rem /* 26/75 */;
+}
+
+/* 服务的对象部分 */
+.fuwu{
+    width: 10rem /* 750/75 */;
+    height: 12rem /* 900/75 */;
+    background: #FFF;
+    margin-top: .2rem /* 15/75 */; 
+}
+.fuwu p{
+    height: .893333rem /* 67/75 */;
+    line-height: .893333rem /* 67/75 */;
+    text-align: center;
+    font-size:.4rem /* 30/75 */;
+}
+.fuwu div{
+    height: 5.026667rem /* 377/75 */;
+}
+.fuwu div img{
+    width: 3.986667rem /* 299/75 */;
+    height: 3.986667rem /* 299/75 */;
+    float: right;
+    position:relative;
+    top: .4rem /* 30/75 */;
+    right:3rem /* 225/75 */;
+}
+.fuwu div span{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left:.306667rem /* 23/75 */
+}
+.fuwu div ul{
+    width: 10rem /* 750/75 */;
+    position:relative;
+}
+.fuwu div ul li{
+    float: left;
+    width:4.533333rem /* 340/75 */;
+    height: 1.066667rem /* 80/75 */;
+    margin-left:.213333rem /* 16/75 */;
+    line-height: 1.066667rem /* 80/75 */;
+    margin-bottom:.133333rem /* 10/75 */;
+}
+.fuwu div ul li img{
+    width: 1.066667rem /* 80/75 */;
+    height: 1.066667rem /* 80/75 */;
+    float:left;
+    top: 0;
+    right:0;
+}
+
+/* foot部分 */
+.index_foot img{
+    width: 10rem /* 750/75 */;
+    height: 4.8rem /* 360/75 */;
+    margin-bottom: 1.306667rem /* 98/75 */;
+}
+
+/* 固定定位选项卡 */
+.xuanx{
+    width: 10rem /* 750/75 */;
+    height: 1.306667rem /* 98/75 */;
+    background: #FFF;
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+.xuanx ul{
+    width:9.333333rem /* 700/75 */;
+    margin:0 auto;
+    position: relative;
+}
+.xuanx ul li{
+    float:left;
+    width: 1.306667rem /* 98/75 */;
+    height: 1.306667rem /* 98/75 */;
+    text-align: center;
+    margin:0 .28rem /* 21/75 */;
+}
+.xuanx ul li img{
+    width: .6rem /* 45/75 */;
+    height: .6rem /* 45/75 */;
+    margin:.08rem /* 6/75 */ .346667rem /* 26/75 */;
+}
+
+/*项目页样式*/
+.index_head b{
+    display:inline-block;
+    position: relative;
+    top:0;
+    left:-3.2rem /* 240/75 */;
+    font-size:.56rem /* 42/75 */;
+}
+.jianjie{
+    padding:.306667rem /* 23/75 */;
+    background: #FFF;
+    margin-top:.2rem /* 15/75 */;
+    font-size: .293333rem /* 22/75 */;
+}
+.jianjie p{
+    line-height: .666667rem /* 50/75 */;
+    font-size: .32rem /* 24/75 */;
+}
+
+.youshi{
+    padding:.306667rem /* 23/75 */;
+    background: #FFF;
+    margin-top:.2rem /* 15/75 */;
+    font-size: .293333rem /* 22/75 */; 
+}
+.youshi p{
+    line-height: .666667rem /* 50/75 */;
+    font-size: .32rem /* 24/75 */;
+}
+
+.shizi{
+    padding:.306667rem /* 23/75 */;
+    background: #FFF;
+    margin-top:.2rem /* 15/75 */;
+    font-size: .293333rem /* 22/75 */; 
+}
+.shizi p{
+    line-height: .666667rem /* 50/75 */;
+    font-size: .32rem /* 24/75 */;
+}
+.shizi ul{
+    margin-bottom: 1.306667rem /* 98/75 */;
+}
+.shizi ul li{
+    background: rgb(238,238,238);
+    margin-top:.2rem /* 15/75 */;
+    border-radius: .133333rem /* 10/75 */;
+    font-size: .293333rem /* 22/75 */;
+}
+.shizi ul li span{
+    float:left;
+    width: .733333rem /* 55/75 */;
+    font-size:.293333rem /* 22/75 */;
+    text-align: center;
+    color:rgb(207,40,35);
+}
+
+/* 市场定位页 */
+.jianjie div img{
+    height: 4.133333rem /* 310/75 */;
+    width: 3.066667rem /* 230/75 */;
+    
+    margin:.133333rem /* 10/75 */ 0;
+}
+.jianjie div img.active{
+    width: 2rem /* 150/75 */;
+    height: 2rem /* 150/75 */;
+    position: relative;
+    top:-1rem /* 75/75 */;
+}
+.jianjie img.TZ-xiangmu{
+    width: 4.4rem /* 330/75 */;
+    height: 8rem /* 600/75 */;
+    position: relative;
+    left:2.666667rem /* 200/75 */;
+    margin-bottom:  1.306667rem /* 98/75 */;
+}
+
+/* 微风投页 */
+.fengtou-title{
+    font-size: .32rem /* 24/75 */;
+    text-align: center;
+    padding:.2rem /* 15/75 */ 0;
+}
+.bankuai{
+    width: 10rem /* 750/75 */;
+    background: #FFF;
+    overflow: hidden;
+    padding-top:.2rem /* 15/75 */;
+    margin-bottom:  1.306667rem /* 98/75 */;
+}
+.bankuai li{
+    float: left;
+    width: 4.533333rem /* 340/75 */;
+    height: 5.6rem /* 420/75 */;
+    border-radius: .266667rem /* 20/75 */;
+    margin-left:.306667rem /* 23/75 */;
+    margin-bottom:.306667rem /* 23/75 */;
+    overflow: hidden;
+    background: rgb(238,238,238);
+    text-align: center;
+    line-height:.8rem /* 60/75 */;
+}
+.bankuai li img{
+    width: 4.533333rem /* 340/75 */;
+    height: 4.2rem /* 315/75 */;
+}
+
+/* 关于我们 */
+.jianjie img.jianJ{
+    width: 9.333333rem /* 700/75 */;
+    height: 5.866667rem /* 440/75 */;
+}
+.jianjie img.chuangSR{
+    width: 2.666667rem /* 200/75 */;
+    height: 3.2rem /* 240/75 */;
+    margin:0 3.36rem /* 252/75 */;
+}
+.jianjie img.linian{
+    width: 2.986667rem /* 224/75 */;
+    height: 1.933333rem /* 145/75 */;
+}
+.jianjie ul{
+    overflow: hidden;
+    margin-bottom: 1.306667rem /* 98/75 */;
+}
+.jianjie ul li{
+    float:left;
+    margin-left:.133333rem /* 10/75 */;
+}
